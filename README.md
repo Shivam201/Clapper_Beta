@@ -1,7 +1,7 @@
 # Clapper_Beta
 A complete Solution for Web Page test with multithreading , Javafx and Selenium 3.1.0
 
-Tool running Feature - 
+Tool running Requirement - 
 1. Java 1.8
 2. Selenium  3.1.0
 
@@ -21,4 +21,5 @@ report will be created for Fail and duplicate links.
 
 Mode 3 - WEBSITE - CLAPPER will make use of test credetial login into the application and will continue for SPECIFIC URL flow.
 
-Note :- Mode2 and Mode3 is only applicable for Complete version please contact - shivam201@gmail.com or call +91-9871820627.
+Note :- Mode2 and Mode3 is only applicable for Complete version 
+please contact - shivam201@gmail.com or call +91-9871820627.
