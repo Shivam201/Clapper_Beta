@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+a {
+    color: green;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+td, th {
+    border: 1px solid #101010;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+
+<script type ="text/javascript">
+<!-- Display todays time -->
+window.onload = function todaytime() {
+    var today = new Date();
+	document.getElementById('date').innerHTML = today.toGMTString()
+	};
+<!-->
+	
+<!-- Auto Refresh function -->
+function AutoRefresh( t ) {
+   setTimeout("location.reload(true);", t);
+}
+//-->	
+</script>
+</head>
+
+
+<body style="background-color:WHite;">
+
+<!--This function will call javascript refresh function after each 1 sec-->
+<body onload="JavaScript:AutoRefresh(1000);">
+  <!--p>This page will refresh every 1 seconds.</p-->
+</body>
+
+<h3 align = "right" id = "date"> Today's date is : </h3>
+<h1 align="center">CLAPPER REPORTING</h1>
+<p></p>
+
+
+<table align = "left">
+  <tr>
+    <th>Index</th>
+    <th>COUNT</th>
+  </tr>
+  <tr>
+    <td>Total URLS</td>
+    <td>6</td>
+  </tr><tr>
+    <td>PASS URL</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>FAILED URL</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>DUPLICATE URL</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>TIME TAKEN By DUPLICATE and FAIL URL</td>
+    <td>1</td>
+  </tr>
+  </table><!-- Image Pie Chart_PASS FAIL Report -->
+	<p><br></br></p><p><br></br></p><p><br></br></p><p><br></br></p>
+	<p><br></br></p>
+	<p><br></br></p>
+	<img align = "center" src="PASSvsFAILREPORT.png" alt="HTML5 Icon" style="width:900px;height:700px;">
+	
+	<p><br></br><br></br></p>
+	<img align = "center" src="PERFORMANCE_REPORT.png" alt="HTML5 Icon" style="width:900px;height:800px;">
+	
+	<p><br></br></p>	
+	<img align = "center" src="RESOURCEWASTEREPORT.png" alt="HTML5 Icon" style="width:900px;height:800px;">
+
+	<h2 align="left"><a href="DuplicateURL.txt">Click here to see DuplicateURL</a></h2>	
+	<h2 align="left"><a href="FAILURL.txt">Click here to see FAIL URL</a></h2>	
+	
+</body>
+</html>
